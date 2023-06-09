@@ -1,0 +1,239 @@
+html{
+    font-size: 62.5%;
+}
+
+h1 {
+    color: #1c2c64;
+    font-family: 'Switzer', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+}
+
+
+h2 {
+    font-family: 'Bespoke Stencil', sans-serif;
+    font-size: 4rem;
+}
+
+p  {
+    font-family: 'Amulya', sans-serif;
+    font-size: 1.9rem;
+}
+
+
+
+nav {
+    background-color: #00c800;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "menu menu menu"
+    "articulo1 articulo1 articulo1"
+    "articulo2 articulo2 articulo2"
+    "articulo3 articulo3 articulo3"
+    "articulo4 articulo4 articulo4"
+    "articulo5 articulo5 articulo5";
+
+}
+
+
+
+.header {
+    grid-area: header;
+    background-color: #04c434;
+}
+.header img{
+    height: 80px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 0px
+    
+}
+.header h1 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 40%;
+
+}
+
+body {
+    background-color: #1c2c64;
+}
+
+.headerindex {
+    grid-area: menu;
+}
+
+
+
+.articulo1 {
+    grid-area: articulo1;
+}
+.articulo1 img {
+    display: inline-block;
+    margin-left: 17%;
+    width: 87rem;
+    height: 30rem;
+}
+.articulo1 h2{
+    text-align: center;
+}
+.articulo1 p{
+    margin-right: 300px;
+    margin-left: 370px;
+}
+
+
+
+.articulo2 {
+    grid-area: articulo2;
+}
+
+
+
+.articulo3 {
+    grid-area: articulo3;
+}
+
+
+
+.articulo4 {
+    grid-area: articulo4;
+}
+
+
+
+.articulo5 {
+    grid-area: articulo5;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 13rem;
+    margin-left: 13rem;
+    
+}
+
+
+footer {
+    font-size: 5rem;
+    background-color: #222951;
+    margin-top: 50px;
+}
+
+.redes img{
+    display: inline-block;
+    height: 38px;
+    margin-left: 40px;
+}
+.redes img:hover { 
+    transform: scale(1.2);
+}
+
+
+.menu img{
+    width: 130px;
+    height: 70px;
+}
+.menu img:hover {
+    transform:scale(110%)
+}
+
+/* CLIENTES */
+
+
+.experiencias {
+    overflow:auto;
+}
+.experiencias img {
+    float: left;
+    margin-top: 110px;
+    margin-right: 15px;
+    height: 400px;
+}
+.experiencias h3  {
+    margin-top:110px;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 25px;
+    padding-bottom: 20px;
+    color: #00c800;
+}
+.experiencias p {
+    text-align: justify;
+    margin-right: 25px;
+    color: #00c800;
+    line-height: 27px;
+}
+
+
+.resultados {
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+}
+.resultados img {
+    height: 600px;
+    margin: 30px;
+}
+
+#carouselExampleCaptions {
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 450px;
+    width: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Switzer-Medium';
+    src: url('../fonts/Switzer-Medium.woff2') format('woff2'),
+        url('../fonts/Switzer-Medium.woff') format('woff'),
+        url('../fonts/Switzer-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-display: swap;
+        font-style: normal;
+}
+
+
+
+
+
+
